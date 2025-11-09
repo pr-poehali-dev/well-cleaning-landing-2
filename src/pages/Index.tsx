@@ -32,7 +32,8 @@ export default function Index() {
     {
       icon: 'Waves',
       title: 'Очистка канализации',
-      description: 'Гидродинамическая очистка канализационных систем и насосных станций.'
+      description: 'Гидродинамическая очистка канализационных систем и насосных станций.',
+      image: 'https://cdn.poehali.dev/files/63f02a30-7bad-47f2-abc4-bc54e42c6ec2.jpeg'
     },
     {
       icon: 'Factory',
@@ -121,11 +122,19 @@ export default function Index() {
           </p>
           <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
             {services.map((service, index) => (
-              <Card key={index} className="hover:shadow-xl transition-shadow duration-300">
+              <Card key={index} className="hover:shadow-xl transition-shadow duration-300 overflow-hidden">
                 <CardContent className="p-6">
-                  <div className="bg-primary/10 w-14 h-14 rounded-lg flex items-center justify-center mb-4">
-                    <Icon name={service.icon} size={28} className="text-primary" />
-                  </div>
+                  {service.image ? (
+                    <img 
+                      src={service.image} 
+                      alt={service.title}
+                      className="w-full h-48 object-cover rounded-lg mb-4"
+                    />
+                  ) : (
+                    <div className="bg-primary/10 w-14 h-14 rounded-lg flex items-center justify-center mb-4">
+                      <Icon name={service.icon} size={28} className="text-primary" />
+                    </div>
+                  )}
                   <h3 className="text-xl font-bold mb-3">{service.title}</h3>
                   <p className="text-muted-foreground">{service.description}</p>
                 </CardContent>
