@@ -69,7 +69,7 @@ export default function Index() {
     <div className="min-h-screen">
       <header className="bg-primary py-4 sticky top-0 z-50 shadow-md">
         <div className="container mx-auto px-4 flex justify-between items-center">
-          <h1 className="text-white text-2xl font-bold">ТЕХСЕРВИС</h1>
+          <h1 className="text-white text-2xl font-bold">Stoki-Ekb</h1>
           <a href="tel:+73432000000" className="text-white hover:text-accent transition-colors flex items-center gap-2">
             <Icon name="Phone" size={20} />
             <span className="font-semibold">+7 (343) 200-00-00</span>
@@ -167,7 +167,7 @@ export default function Index() {
       <section className="py-20 bg-primary text-white">
         <div className="container mx-auto px-4">
           <div className="max-w-3xl mx-auto">
-            <h2 className="text-4xl font-bold mb-6">О компании ТЕХСЕРВИС</h2>
+            <h2 className="text-4xl font-bold mb-6">О компании Stoki-Ekb</h2>
             <p className="text-xl mb-6 text-blue-100 leading-relaxed">
               Мы специализируемся на профессиональном обслуживании канализационных систем в Екатеринбурге. 
               Наша компания работает с использованием современной спецтехники КО-560, что позволяет нам 
