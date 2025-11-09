@@ -27,7 +27,8 @@ export default function Index() {
     {
       icon: 'Droplet',
       title: 'Откачка септиков и колодцев',
-      description: 'Профессиональная откачка септиков, выгребных ям, колодцев. Работаем круглосуточно.'
+      description: 'Профессиональная откачка септиков, выгребных ям, колодцев. Работаем круглосуточно.',
+      image: 'https://cdn.poehali.dev/files/285d34a1-76b0-4188-878c-57e0e983dfc7.jpeg'
     },
     {
       icon: 'Waves',
