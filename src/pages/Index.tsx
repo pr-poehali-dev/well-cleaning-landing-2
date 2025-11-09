@@ -105,7 +105,7 @@ export default function Index() {
           </div>
           <div className="relative">
             <img 
-              src="https://cdn.poehali.dev/projects/b1f1b919-6654-404e-8831-caa23a8aebfa/files/2bc62a4c-24f9-47ee-a9ff-b4924fcee6e6.jpg"
+              src="https://cdn.poehali.dev/files/49d8b041-44fb-4f58-b25a-14b69e426c3a.jpg"
               alt="КО-560 спецтехника"
               className="w-full h-auto drop-shadow-2xl animate-fade-in"
             />
